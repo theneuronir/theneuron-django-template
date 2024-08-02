@@ -7,10 +7,10 @@
 
 ## Usage
 
-Run following command:
+Run following command (replace <project-name>):
 
 ```
-django-admin startproject alborz --template https://github.com/theneuronir/theneuron-django-template/archive/refs/heads/main.zip -e config.js,js,json,example
+django-admin startproject <project-name> --template https://github.com/theneuronir/theneuron-django-template/archive/refs/heads/main.zip -e config.js,js,json,example
 ```
 
 ## What's included?
