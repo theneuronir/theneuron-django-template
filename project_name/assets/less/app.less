@@ -1,0 +1,110 @@
+//
+// Fonts
+//
+@font-face {
+  font-family: "Casablanca";
+  src: url("../font/casablanca.ttf");
+}
+
+@font-face {
+  font-family: "Ordibehesht";
+  src: url("../font/ordibehesht.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../font/samim.ttf");
+}
+
+//
+// Core
+//
+@import "./components.less";
+
+//
+// Theme
+//
+@import "./theme.less";
+
+/*rtl:begin:ignore*/
+
+//
+// Overrides
+//
+@global-font-family: "Samim", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@base-heading-font-family: "Casablanca", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// @global-color: #f6f6f6;
+// @global-primary-color: #006ada;
+@global-border-radius: 12px;
+
+.hook-dropdown {
+  border-radius: @global-border-radius;
+}
+
+.hook-notification-message {
+  border-radius: @global-border-radius;
+  overflow: hidden;
+}
+
+.hook-form {
+  border-radius: @global-border-radius;
+}
+
+.hook-form-radio {
+  border-radius: @global-border-radius;
+}
+
+.hook-button() {
+  border-radius: @global-border-radius;
+}
+
+.hook-base-pre() {
+  border-radius: @global-border-radius;
+}
+
+.hook-card() {
+  border-radius: @global-border-radius;
+  overflow: hidden;
+}
+
+pre,
+code {
+  direction: ltr;
+}
+
+html.uk-offcanvas-page {
+  padding-right: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+@import "@fortawesome/fontawesome-free/less/regular.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/v4-shims.less";
+
+@fa-font-path: '../webfonts';
+
+@keyframes navigate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+}
+
+html[data-turbo-visit-direction="forward"]::view-transition-old(root) {
+  animation: navigate 0.25s ease;
+}
+
+/*rtl:end:ignore*/

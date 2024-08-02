@@ -1,0 +1,169 @@
+.streamfield_app {
+  float: right;
+}
+
+.stream-model-subblock-handle, .streamblock__block-handle {
+  left: 2px;
+  right: initial;
+  z-index: 11;
+}
+
+.streamfield_app .streamfield-models .stream-model-block .streamblock__block__title-click {
+  z-index: 10 !important;
+}
+
+@media screen and (max-width: 780px) {
+  .g-d-c {
+    display: flex;
+    width: 100%;
+  }
+  
+  .g-d-6 {
+    width: 33%;
+  }
+  
+  .g-d-12 {
+    width: 66%;
+  }
+
+  .g-d-c {
+    flex-wrap: wrap;
+  }
+  .g-d-6,
+  .g-d-12 {
+    width: 100%;
+  }
+  .g-d-6,
+  .g-d-12,
+  .g-d-f,
+  .g-all-f,
+  .g-all-fl,
+  .l-2c .c-1,
+  .l-2cr .c-1 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    clear: left;
+  }
+  .grp-change-form .grp-module:not(.grp-submit-row) {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  body.grp-change-form #grp-content-container > form,
+  body.grp-change-form #grp-content-container > form > div {
+    float: none;
+  }
+  .g-d-c-fluid,
+  .l-2c-fluid:not(.grp-cell),
+  .l-2cr-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+  .grp-row input[type="url"],
+  .grp-row input[type="email"],
+  .grp-row .vTextField,
+  .grp-row .vURLField,
+  .grp-row .vFileBrowseField,
+  .grp-row textarea,
+  .grp-row .vLargeTextField,
+  .grp-row .vXMLLargeTextField,
+  .grp-autocomplete-wrapper-m2m {
+    width: 100%;
+  }
+  .selector {
+    float: none;
+    width: 100%;
+  }
+  .selector .selector-available,
+  .selector .selector-chosen {
+    width: 45%;
+  }
+  .selector .selector-filter input[type="text"] {
+    width: 85% !important;
+  }
+  .selector select[multiple] {
+    width: 100% !important;
+  }
+  .grp-related-widget-wrapper {
+    float: none;
+    width: 100%;
+  }
+  .grp-related-widget {
+    width: 100%;
+  }
+  #grp-context-navigation {
+    display: flex;
+  }
+  #grp-breadcrumbs {
+    float: none;
+    width: 76% !important;
+  }
+  #grp-breadcrumbs > ul {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .grp-submit-row.grp-fixed-footer > div {
+    display: flex;
+    overflow-x: scroll;
+    padding: 8px;
+  }
+  .grp-fixed-footer {
+    padding: 0;
+  }
+  .g-d-append12,
+  .l-2cr-fluid.l-d-12 .c-2 {
+    padding-right: 0 !important;
+  }
+  .grp-changelist-results {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .g-d-12,
+  .l-2cr-fluid.l-d-12 .c-1 {
+    float: none !important;
+    width: 100%;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .grp-float-left,.grp-float-right {
+    float: none !important;
+  }
+  #grp-filters {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .grp-submit-row.grp-fixed-footer > ul > li.grp-changelist-actions,
+  .grp-submit-row.grp-fixed-footer > ul > div.grp-changelist-actions {
+    display: flex;
+    margin: 0;
+    padding: 8px 4px !important;
+    width: 100%;
+    box-sizing: border-box !important;
+  }
+
+  .grp-submit-row.grp-fixed-footer > ul > li.grp-changelist-actions > .grp-changelist-actions ,
+  .grp-submit-row.grp-fixed-footer > ul > div.grp-changelist-actions > .grp-changelist-actions {
+    display: flex;
+    min-width: 100%;
+  }
+
+  li.grp-changelist-actions button[type=submit] {
+    float: none;
+    order: 12;
+    flex: 1;
+  }
+}
+#logout-form button {
+  margin: 0;
+  display: flex;
+  padding: 10px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  align-items: center;
+  background: #fff0;
+  border: 0;
+  color: red;
+  height: 38px;
+}

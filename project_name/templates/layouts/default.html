@@ -1,0 +1,57 @@
+{% load render_bundle from webpack_loader %}
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>قالب جنگو نورون</title>
+  {% render_bundle 'main' %}
+</head>
+
+<body>
+  <div id="app">
+    <div class="uk-section">
+      <div class="uk-container">
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-body">
+            <h2>قابلیت ها:</h2>
+            <ul>
+              <li>
+                Webpack
+                <ul>
+                  <li>CSS Loader</li>
+                  <li>LESS Loader</li>
+                  <li>SVG Loader</li>
+                  <li>Vue Loader</li>
+                  <li>PostCSS</li>
+                  <li>RTLCSS</li>
+                </ul>
+              </li>
+              <li>UiKit 3</li>
+              <li>Vue 3</li>
+              <li>Font Awesome Free 6.5</li>
+              <li>Turbo js</li>
+              <li>
+                Grappelli Admin
+                <ul>
+                  <li>Responsive</li>
+                  <li>Django Import/Export integrated</li>
+                  <li>Django File Browser integrated</li>
+                  <li>Django Admin Sortable2</li>
+                  <li>Django Jalali</li>
+                  <li>Django Solo</li>
+                  <li>Django Taggit</li>
+                  <li>Django Tinymce</li>
+                  <li>Django Webpack Loader</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
