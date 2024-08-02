@@ -3,11 +3,8 @@
 *.pot
 *.pyc
 __pycache__
-database/*
-public/media/*
 webpack-stats.json
 node_modules
-public/static/bundles/*
 staticfiles
 
 # Backup files #
